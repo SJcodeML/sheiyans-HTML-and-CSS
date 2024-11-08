@@ -17,6 +17,11 @@ html , body {
    
 }
 
+/* #main {  
+    display: flex;  
+    flex-wrap: wrap;  
+}   */
+
 #nav img {
     height: 75px;
 }
@@ -359,134 +364,6 @@ transform: rotate(360deg);
     perspective: 100px;
     /* border:1px solid var(--my-variable); */
 }  
-
-/* comment section  */
-
-#card-1{
-    width:250px;
-    height: 350px;
-    padding:2em;
-    margin:0 1em;
-    background-color:black;
-    border:1px solid black;
-    border:2px solid rgba(208, 183, 183, 0.855);
-    border-radius: 10%;
-}
-
-span{
-    font-size: 2em;
-    color:var(--my-variable);
-}
-
-#card-1 img{
-    height:100px;
-    width:200px;
-    border-radius: 10%;
-    box-shadow:2px 2px 8px #95c11e , -2px -2px 8px #95c11e;
-}
-
-#card-1:hover{
-    transform: scale(1.25);
-    transition:1s;
-    color:#95c11e;
-    background:transparent;
-    font-weight:700;
-    overflow: hidden;
-}
-
-#card-1 p{
-     text-align: center;
-     line-height:1.25em;
-     margin-top:1em
-}
-
-/* #multiple-cards-container{
-    height: 100%;
-    width:100%;
-    display:flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-     align-items:center; 
-    padding:6rem;
-    margin: 3rem;
-} */
-
-#card-container{
-     height:100%;
-     width:100%;
-     display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    overflow-x: hidden; 
-}
-
-
-/* trying */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  What are you waiting for section */
-#wwf{
-    height:100vh;
-    width:100%;
-    padding:0 8rem;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 3rem;
-
-}
-
-
-#image-cards{
-    height:10rem;
-    width:10rem;
-    background-color: #95c11e;
-    border-radius:20em;
-     display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-wrap: wrap;
-    position: relative;
-    /* background-image: url("golf\ image\ 6.jpg"); */
-    /* transition: background-image 0.3s ease; */
-}
-
-#image-cards:hover{
-    background-color: #95c11e;
-    
-}
-
-#image-cards P{
-    color: #000;
-    font-weight: 900;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-
-
-
 
 
 
